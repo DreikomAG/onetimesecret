@@ -21,7 +21,7 @@
     body {
       padding-top: 0px;
       padding-bottom: 10px;
-      font-family: georgia,serif;
+      font-family: 'Glober W01 Bold',sans-serif;
     }
     /* Custom container */
     .container-narrow {
@@ -32,12 +32,14 @@
       margin: 30px 0;
     }
     .masthead {
+      margin-top: 15px;
       color: #ccc;
     }
-    .masthead .nav {
-      margin-top: 24px;
-      padding: 0px;
+
+    .masthead img {
+      margin-right: 15px;
     }
+
     /* Main marketing message and sign up button */
     .jumbotron {
       margin: 20px 0;
@@ -72,10 +74,6 @@
     /* Supporting marketing content */
     .marketing {
       margin: 20px 0;
-    }
-
-    .header img {
-      margin-top: 15px;
     }
 
     @media (min-width: 481px) {
@@ -125,9 +123,10 @@
 <div class="container-narrow">
 
   <div class="masthead">
-    <div class="nav pull-right">
     {{#display_masthead}}
     {{/display_masthead}}
 
-    <h1 id="header"><a href="/"><img src="img/logo.png" alt="Dreikom logo" />One- Time Secret</a></h1>
+    <a href="/"><img style="display: inline;" src="/img/logo.png" alt="Dreikom logo" /></a>
+    <h1 style="display: inline;">One Time Secret</h1>
+
 </div>

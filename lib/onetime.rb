@@ -203,7 +203,7 @@ module Onetime
     rescue => ex
       'A house is full of games and puzzles.'
     end
-    def strand(len=12, safe=true)
+    def strand(len=16, safe=true)
       chars = safe ? VALID_CHARS_SAFE : VALID_CHARS
       (1..len).collect { chars[rand(chars.size-1)] }.join
     end

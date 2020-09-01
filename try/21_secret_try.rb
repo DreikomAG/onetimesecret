@@ -23,7 +23,7 @@ s = Onetime::Secret.new :shared, [:some, :fixed, :values]
 s.rediskey
 #=> 'secret:6genol59u9is7nuh8wr9gvokaply5h3:object'
 
-## Generate a pair
+## Generate a pairs
 @metadata, @secret = Onetime::Secret.spawn_pair :anon, :tryouts
 [@metadata.nil?, @secret.nil?]
 #=> [false, false]

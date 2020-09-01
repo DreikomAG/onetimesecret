@@ -16,7 +16,7 @@ apikey = Onetime.conf[:stathat][:apikey]
 StatHat::API.ez_post_count("OTS TEST 1 (count)", apikey, 1)
 #=> true
 
-## Can post value
+## Can post values
 apikey = Onetime.conf[:stathat][:apikey]
 StatHat::API.ez_post_value("OTS TEST 1 (value)", apikey, rand*1000)
 #=> true

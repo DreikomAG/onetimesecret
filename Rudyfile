@@ -2,7 +2,7 @@
 
 # ---------------------------------------------------- COMMON ROUTINES --------
 # The routines block describes the repeatable processes for each machine group.
-# To run a routine, specify its name on the command-line: rudy startup
+# To run a routine, specify its name on the command-line: rudy startups
 routines do
 
   role :fe do

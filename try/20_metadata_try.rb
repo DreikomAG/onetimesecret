@@ -15,7 +15,7 @@ require 'onetime'
 @metadata2.exists?
 #=> false
 
-## Does exist
+## Does exists
 @metadata2.save
 p @metadata2.all
 @metadata2.exists?

@@ -5,7 +5,7 @@ s1, s2 = OT::Session.new, OT::Session.new
 s1.sessid == s2.sessid
 #=> true
 
-# Can set form fields
+# Can set form field
 @sess = OT::Session.new
 ret = @sess.set_form_fields :custid => 'tryouts', :planid => :testing
 ret.class

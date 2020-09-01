@@ -4,7 +4,7 @@ require 'onetime'
 Onetime::Utils.strand.class
 #=> String
 
-## strand is 12 chars by default
+## strand is 12 chars by default size
 Onetime::Utils.strand.size
 #=> 12
 

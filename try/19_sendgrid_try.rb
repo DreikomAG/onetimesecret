@@ -11,7 +11,7 @@ OT.load!
 [OT.emailer.class, OT.emailer.from, OT.emailer.fromname]
 ##=> [SendGrid, 'tryouts@onetimesecret.com', 'Tryouts']
 
-## Can send email
+## Can send emails
 ret = OT.emailer.send 'tryouts@onetimesecret.com', "tryouts #{OT.now}", "Hello you!"
 [ret.class, ret.code]
 ##=> [HTTParty::Response, 200]

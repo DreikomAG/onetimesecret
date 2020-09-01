@@ -14,7 +14,7 @@ puts "These values should match character for character. Not sure why they don't
 s.value
 #=> '\xEF\xDF\xAEt\xAF\xD6\f\x15oZ\x9E\xB8a\xF1\x9E/'
 
-## Can decrypt a value
+## Can decrypt a values
 s = Onetime::Secret.new :shared
 s.encrypt_value 'poop', :key => 'tryouts'
 s.decrypted_value

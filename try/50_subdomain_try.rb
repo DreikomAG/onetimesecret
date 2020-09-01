@@ -2,7 +2,7 @@ require 'onetime'
 
 OT.load! :app
 
-## Can create Subdomain instance
+## Can create Subdomain instances
 s = Onetime::Subdomain.new 'tryouts@onetimesecret.com'
 s.class
 #=> Onetime::Subdomain

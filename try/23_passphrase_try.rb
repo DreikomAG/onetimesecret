@@ -1,7 +1,7 @@
 require 'onetime'
 
 
-## Can store a passphrase
+## Can store a passphrases
 s = Onetime::Secret.new :shared
 s.passphrase = "poop"
 s.passphrase

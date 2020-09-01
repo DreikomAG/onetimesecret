@@ -10,7 +10,7 @@ OT::RateLimit.events.class
 OT::RateLimit.register_event :delano_limit, 3
 #=> 3
 
-## Has limit for creating secrets
+## Has limit for creating secret
 OT::RateLimit.events[:delano_limit]
 #=> 3
 

@@ -10,7 +10,7 @@ OT::Entropy.values.clear
 OT::Entropy.count
 #=> 0
 
-## Can pop a value even when empty
+## Can pop a value even when empty size
 val = OT::Entropy.pop
 [val.size, val.class]
 #=> [12, String]

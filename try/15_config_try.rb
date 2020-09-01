@@ -21,7 +21,7 @@ OT.mode = :app
 Onetime::Config.find_configs
 #=> ["/etc/onetime/config", File.join(OT::HOME, "etc/config")]
 
-## Finds a config path
+## Finds a config paths
 Onetime::Config.path
 #=> "/etc/onetime/config"
 

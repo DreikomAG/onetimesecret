@@ -29,6 +29,8 @@ ADD docker-entrypoint.sh /usr/bin/
 
 # VOLUME /etc/onetime /var/run/redis
 
+VOLUME /var/run/redis
+
 EXPOSE 7143/tcp
 
 ENTRYPOINT ["sh", "/usr/bin/docker-entrypoint.sh"]

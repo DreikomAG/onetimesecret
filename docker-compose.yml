@@ -2,6 +2,8 @@ version: '3.8'
 services:
   onetimesecret:
     container_name: onetimesecret
-    image: 'swissbuechi/onetimesecret'
+    image: 'onetimesecret'
     ports:
       - '8080:7143'
+    volumes:
+      - './config/config:/etc/onetime/config'

@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  onetimesecret:
+    container_name: onetimesecret
+    image: 'swissbuechi/onetimesecret'
+    build: .
+    ports:
+      - '8080:7143'
+    volumes:
+      - './config/config:/etc/onetime/config'
+      - './redis:/var/run/redis'

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#Move to the folder where OneTimeSecret is installed
+#Move to the folders where OneTimeSecret is installed
 cd `dirname $0`
 
 #Was this script started in the bin folder? if yes move out

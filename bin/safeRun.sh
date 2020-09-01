@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#This script ensures that OneTimeSecret is automatically restarting after an error happens
+#This script ensures that OneTimeSecret is automatically restarting after an error happen
 
 #Handling Errors
 # 0 silent

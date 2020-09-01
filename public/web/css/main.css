@@ -6,6 +6,10 @@
    ========================================================================== */
 
 
+   body {
+     font-family: 'Glober W01 Regular',sans-serif;
+   }
+
 .masthead .nav a {
   color: black;
   text-decoration: underline;
@@ -22,25 +26,6 @@
 #logo {
   padding: 0px;
   margin-top: 10px;
-}
-
-#banner {
-  width: 100%;
-  background-color: #f0f0f0;
-  margin: 0px;
-  padding: 0px;
-  margin-bottom: 0px;
-  border-bottom: 4px solid red; /* dd4a22, d22000, b04420 */
-}
-
-#banner .broadcast {
-  text-align: center;
-  color: #000;
-  font-weight: bolder;
-}
-
-#banner .broadcast a {
-  text-decoration: underline;
 }
 
 #createSecret {
@@ -68,11 +53,11 @@
   text-shadow: 1px 1px 0 #740500;
 }
 
-
-
-
 #footer {
-
+  @font-face {
+    font-family: ;
+    src: url();
+  }
   text-align: center;
   font-size: 80%;
   line-height: 80%;

@@ -1,8 +1,9 @@
 version: '3.8'
 services:
   onetimesecret:
-    container_name: onetimesecret
+    container_name: swissbuechi/onetimesecret
     image: 'onetimesecret'
+    restart: always
     ports:
       - '8080:7143'
     volumes:

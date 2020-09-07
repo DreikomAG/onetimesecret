@@ -27,7 +27,7 @@ ADD docker-entrypoint.sh /usr/bin/
 # Add default config
 # ADD config.example /etc/onetime/config
 
-# VOLUME /etc/onetime /var/run/redis
+# VOLUME /etc/onetime /var/lib/redis
 
 VOLUME /var/run/redis
 

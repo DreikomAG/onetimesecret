@@ -1,7 +1,7 @@
 require 'httparty'
 require 'pp'
  
-# http://wiki.sendgrid.com/doku.php?id=web_api
+# http://wiki.sendgrid.com/doku.php?id=web_api 
 
 class SendGrid
   include HTTParty

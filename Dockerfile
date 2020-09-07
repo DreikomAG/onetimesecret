@@ -24,12 +24,7 @@ RUN set -ex && \
 
 ADD docker-entrypoint.sh /usr/bin/
 
-# Add default config
-# ADD config.example /etc/onetime/config
-
-# VOLUME /etc/onetime /var/lib/redis
-
-VOLUME /var/run/redis
+VOLUME /var/lib/redis
 
 EXPOSE 7143/tcp
 

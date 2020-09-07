@@ -40,3 +40,4 @@ module StatHat
     end
   end
 end
+

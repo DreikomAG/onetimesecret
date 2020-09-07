@@ -7,7 +7,7 @@
     :button_generate_secret: "Oder lass ein zufälliges Passwort generieren"
     :secret_privacy_options: "Privatsphäre-Einstellungen"
     :secret_passphrase: "Passwort"
-    :secret_passphrase_hint: "(Optional) Für das öffnen vom wird zusätzlich ein Passwort benötigt"
+    :secret_passphrase_hint: "(Optional)"
     :secret_recipient_address: "Empfänger-Adresse"
     :secret_placeholder: "Füge ein Passwort, eine geheime Nachricht oder einen privaten Link hier ein..."
     :header_create_account: "Account erstellen"
@@ -55,7 +55,7 @@
     :verification_sent_to: "Eine Bestätigung wurde gesendet an"
   :homepage:
     :tagline1: "Füge ein Passwort, eine geheime Nachricht oder einen privaten Link unten ein."
-    :tagline2: "Halte sensible Informationen aus deinen Chat-Logs und E-Mails heraus."
+    :tagline2: "Halten Sie sensible Informationen aus Chat-Logs und E-Mails heraus.."
     :secret_hint: "* Ein geheimer Link funktioniert nur einmal und verschwindet danach für immer."
     :secret_form_more_text1: "Registriere dich für einen "
     :secret_form_more_text2: "kostenlosen Account"

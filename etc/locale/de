@@ -1,7 +1,7 @@
 :web:
   :COMMON:
     :broadcast: ""
-    :description: "Halten Sie sensible Informationen aus Chat-Logs und E-Mails heraus. Teilen Sie einen Link, der nur einmal verfügbar ist."
+    :description: "Halten Sie sensible Informationen aus Chats und E-Mails heraus. Teilen Sie einen Link, der nur einmal verfügbar ist."
     :keywords: "geheim,Passwort-Generator,Teile ein Geheimnis,einmalig"
     :button_create_secret: "Erstelle einen geheimen Link"
     :button_generate_secret: "Oder lass ein zufälliges Passwort generieren"
@@ -55,7 +55,7 @@
     :verification_sent_to: "Eine Bestätigung wurde gesendet an"
   :homepage:
     :tagline1: "Füge ein Passwort, eine geheime Nachricht oder einen privaten Link unten ein."
-    :tagline2: "Halten Sie sensible Informationen aus Chat-Logs und E-Mails heraus"
+    :tagline2: "Halten Sie sensible Informationen aus Chats und E-Mails heraus"
     :secret_hint: "* Ein geheimer Link funktioniert nur einmal und verschwindet danach für immer."
     :secret_form_more_text1: "Registriere dich für einen "
     :secret_form_more_text2: "kostenlosen Account"
@@ -87,7 +87,7 @@
     :enter_your_credentials: "Gib deine Anmeldedaten ein"
   :incoming:
     :tagline1: "Füge ein Passwort, eine geheime Nachricht oder einen privaten Link unten ein."
-    :tagline2: "Halte sensible Informationen aus deinen Chat-Logs und E-Mails heraus."
+    :tagline2: "Halte sensible Informationen aus deinen Chats und E-Mails heraus."
     :secret_hint: "* Ein geheimer Link funktioniert nur einmal und verschwindet danach für immer."
     :incoming_button_create: "An Support-Mitarbeiter senden"
     :incoming_secret_options: "Support-Info"

@@ -14,4 +14,4 @@ When you send people sensitive info like passwords and private links via email o
 
 ## Usage
 
-Docker Image: https://hub.docker.com/repository/docker/swissbuechi/onetimesecret
+Docker Image
